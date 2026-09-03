@@ -258,7 +258,7 @@ local function VOLH_fake_script() -- TextButton.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-		RequestCommand:InvokeServer(";music 116424639666494 ;pitch 0.1")
+		RequestCommand:InvokeServer(";music 129921962133517 ;pitch 0.25")
 	end)
 end
 coroutine.wrap(VOLH_fake_script)()
