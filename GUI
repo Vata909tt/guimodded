@@ -15,6 +15,7 @@ local TextButton6 = Instance.new("TextButton")
 local TextButton7 = Instance.new("TextButton")
 local TextButton8 = Instance.new("TextButton")
 local TextButton9 = Instance.new("TextButton")
+local TextButton10 = Instance.new("TextButton")
 
 --Properties:
 
@@ -22,7 +23,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 TextLabel.Parent = ScreenGui
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.243295014, 0, 0.0729166642, 0)
@@ -35,14 +36,14 @@ TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
 Frame.Parent = TextLabel
-Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(-0.0006418759, 0, 0.9865973, 0)
 Frame.Size = UDim2.new(0, 485, 0, 457)
 
 TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.0618556701, 0, 0.170678332, 0)
@@ -56,7 +57,7 @@ TextButton.TextWrapped = true
 
 TextButton2.Name = "TextButton2"
 TextButton2.Parent = Frame
-TextButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton2.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton2.BorderSizePixel = 0
 TextButton2.Position = UDim2.new(0.525773168, 0, 0.170678332, 0)
@@ -70,7 +71,7 @@ TextButton2.TextWrapped = true
 
 TextButton3.Name = "TextButton3"
 TextButton3.Parent = Frame
-TextButton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton3.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton3.BorderSizePixel = 0
 TextButton3.Position = UDim2.new(0.0618556701, 0, 0.341356665, 0)
@@ -84,7 +85,7 @@ TextButton3.TextWrapped = true
 
 TextButton4.Name = "TextButton4"
 TextButton4.Parent = Frame
-TextButton4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton4.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton4.BorderSizePixel = 0
 TextButton4.Position = UDim2.new(0.525773168, 0, 0.341356665, 0)
@@ -98,7 +99,7 @@ TextButton4.TextWrapped = true
 
 TextButton5.Name = "TextButton5"
 TextButton5.Parent = Frame
-TextButton5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton5.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton5.BorderSizePixel = 0
 TextButton5.Position = UDim2.new(0.0618556701, 0, 0.516411364, 0)
@@ -112,7 +113,7 @@ TextButton5.TextWrapped = true
 
 TextButton6.Name = "TextButton6"
 TextButton6.Parent = Frame
-TextButton6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton6.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton6.BorderSizePixel = 0
 TextButton6.Position = UDim2.new(0.525773168, 0, 0.516411364, 0)
@@ -126,7 +127,7 @@ TextButton6.TextWrapped = true
 
 TextButton7.Name = "TextButton7"
 TextButton7.Parent = Frame
-TextButton7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton7.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton7.BorderSizePixel = 0
 TextButton7.Position = UDim2.new(0.0618556701, 0, 0.691466093, 0)
@@ -140,7 +141,7 @@ TextButton7.TextWrapped = true
 
 TextButton8.Name = "TextButton8"
 TextButton8.Parent = Frame
-TextButton8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton8.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton8.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton8.BorderSizePixel = 0
 TextButton8.Position = UDim2.new(0.525773168, 0, 0.691466093, 0)
@@ -154,7 +155,7 @@ TextButton8.TextWrapped = true
 
 TextButton9.Name = "TextButton9"
 TextButton9.Parent = Frame
-TextButton9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton9.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
 TextButton9.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton9.BorderSizePixel = 0
 TextButton9.Position = UDim2.new(0.0618556067, 0, 0.844638944, 0)
@@ -166,9 +167,23 @@ TextButton9.TextScaled = true
 TextButton9.TextSize = 14.000
 TextButton9.TextWrapped = true
 
+TextButton10.Name = "TextButton10"
+TextButton10.Parent = Frame
+TextButton10.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+TextButton10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton10.BorderSizePixel = 0
+TextButton10.Position = UDim2.new(0.0618556067, 0, 0.026258206, 0)
+TextButton10.Size = UDim2.new(0, 424, 0, 50)
+TextButton10.Font = Enum.Font.SourceSans
+TextButton10.Text = "Jeff Decal"
+TextButton10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton10.TextScaled = true
+TextButton10.TextSize = 14.000
+TextButton10.TextWrapped = true
+
 -- Scripts:
 
-local function PQZLKZ_fake_script() -- TextButton.LocalScript 
+local function TMLEU_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- F3X Decal Spam
@@ -447,8 +462,8 @@ local function PQZLKZ_fake_script() -- TextButton.LocalScript
 		spam("73859504735494") -- Replace with your decal ID
 	end)
 end
-coroutine.wrap(PQZLKZ_fake_script)()
-local function VFHYR_fake_script() -- TextButton2.LocalScript 
+coroutine.wrap(TMLEU_fake_script)()
+local function ZWXZNTZ_fake_script() -- TextButton2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton2)
 
 	-- F3X Skybox
@@ -722,8 +737,8 @@ local function VFHYR_fake_script() -- TextButton2.LocalScript
 	end)
 	
 end
-coroutine.wrap(VFHYR_fake_script)()
-local function ABFBGQ_fake_script() -- TextButton3.LocalScript 
+coroutine.wrap(ZWXZNTZ_fake_script)()
+local function ULUV_fake_script() -- TextButton3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton3)
 
 	--[[
@@ -736,8 +751,8 @@ local function ABFBGQ_fake_script() -- TextButton3.LocalScript
 		RequestCommand:InvokeServer(";music 83519018283981 ;pitch 0.1") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(ABFBGQ_fake_script)()
-local function ICRUUZH_fake_script() -- TextButton4.LocalScript 
+coroutine.wrap(ULUV_fake_script)()
+local function YKBF_fake_script() -- TextButton4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton4)
 
 	--[[
@@ -750,8 +765,8 @@ local function ICRUUZH_fake_script() -- TextButton4.LocalScript
 		RequestCommand:InvokeServer(";btools me") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(ICRUUZH_fake_script)()
-local function ZUAM_fake_script() -- TextButton5.LocalScript 
+coroutine.wrap(YKBF_fake_script)()
+local function TZQWJKG_fake_script() -- TextButton5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton5)
 
 	--[[
@@ -764,8 +779,8 @@ local function ZUAM_fake_script() -- TextButton5.LocalScript
 		RequestCommand:InvokeServer(";char all Vata909tt") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(ZUAM_fake_script)()
-local function HENTNOU_fake_script() -- TextButton6.LocalScript 
+coroutine.wrap(TZQWJKG_fake_script)()
+local function NJIL_fake_script() -- TextButton6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton6)
 
 	--[[
@@ -778,8 +793,8 @@ local function HENTNOU_fake_script() -- TextButton6.LocalScript
 		RequestCommand:InvokeServer(";fire all") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(HENTNOU_fake_script)()
-local function EQFHL_fake_script() -- TextButton7.LocalScript 
+coroutine.wrap(NJIL_fake_script)()
+local function UVQYUHE_fake_script() -- TextButton7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton7)
 
 	--[[
@@ -792,8 +807,8 @@ local function EQFHL_fake_script() -- TextButton7.LocalScript
 		RequestCommand:InvokeServer(";sm Vata909tt Has Hacked This Server") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(EQFHL_fake_script)()
-local function TUWUPGB_fake_script() -- TextButton8.LocalScript 
+coroutine.wrap(UVQYUHE_fake_script)()
+local function WPQJ_fake_script() -- TextButton8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton8)
 
 	--[[
@@ -806,8 +821,8 @@ local function TUWUPGB_fake_script() -- TextButton8.LocalScript
 		RequestCommand:InvokeServer(";title all Vata909tt has hacked this game!") -- U can change all of it with your commands!
 	end)
 end
-coroutine.wrap(TUWUPGB_fake_script)()
-local function AYAWHQ_fake_script() -- TextButton9.LocalScript 
+coroutine.wrap(WPQJ_fake_script)()
+local function NWVIOZ_fake_script() -- TextButton9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton9)
 
 	local button = script.Parent
@@ -816,8 +831,288 @@ local function AYAWHQ_fake_script() -- TextButton9.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Vata909tt/Map/refs/heads/main/Map'))()
 	end)
 end
-coroutine.wrap(AYAWHQ_fake_script)()
-local function UMUAAD_fake_script() -- TextLabel.DragScript 
+coroutine.wrap(NWVIOZ_fake_script)()
+local function LJVPMF_fake_script() -- TextButton10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton10)
+
+	-- F3X Decal Spam
+	
+	TextButton10.MouseButton1Click:Connect(function() -- Replace with your instance name
+		local player = game.Players.LocalPlayer
+		local char = player.Character
+		local tool
+		for i,v in player:GetDescendants() do
+			if v.Name == "SyncAPI" then
+				tool = v.Parent
+			end
+		end
+		for i,v in game.ReplicatedStorage:GetDescendants() do
+			if v.Name == "SyncAPI" then
+				tool = v.Parent
+			end
+		end
+		remote = tool.SyncAPI.ServerEndpoint
+		function _(args)
+			remote:InvokeServer(unpack(args))
+		end
+		function SetCollision(part,boolean)
+			local args = {
+				[1] = "SyncCollision",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["CanCollide"] = boolean
+					}
+				}
+			}
+			_(args)
+		end
+		function SetAnchor(boolean,part)
+			local args = {
+				[1] = "SyncAnchor",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Anchored"] = boolean
+					}
+				}
+			}
+			_(args)
+		end
+		function CreatePart(cf,parent)
+			local args = {
+				[1] = "CreatePart",
+				[2] = "Normal",
+				[3] = cf,
+				[4] = parent
+			}
+			_(args)
+		end
+		function DestroyPart(part)
+			local args = {
+				[1] = "Remove",
+				[2] = {
+					[1] = part
+				}
+			}
+			_(args)
+		end
+		function MovePart(part,cf)
+			local args = {
+				[1] = "SyncMove",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["CFrame"] = cf
+					}
+				}
+			}
+			_(args)
+		end
+		function Resize(part,size,cf)
+			local args = {
+				[1] = "SyncResize",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["CFrame"] = cf,
+						["Size"] = size
+					}
+				}
+			}
+			_(args)
+		end
+		function AddMesh(part)
+			local args = {
+				[1] = "CreateMeshes",
+				[2] = {
+					[1] = {
+						["Part"] = part
+					}
+				}
+			}
+			_(args)
+		end
+	
+		function SetMesh(part,meshid)
+			local args = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["MeshId"] = "rbxassetid://"..meshid
+					}
+				}
+			}
+			_(args)
+		end
+		function SetTexture(part, texid)
+			local args = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["TextureId"] = "rbxassetid://"..texid
+					}
+				}
+			}
+			_(args)
+		end
+		function SetName(part, stringg)
+			local args = {
+				[1] = "SetName",
+				[2] = {
+					[1] = part
+				},
+				[3] = stringg
+			}
+	
+			_(args)
+		end
+		function MeshResize(part,size)
+			local args = {
+				[1] = "SyncMesh",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Scale"] = size
+					}
+				}
+			}
+			_(args)
+		end
+		function Weld(part1, part2,lead)
+			local args = {
+				[1] = "CreateWelds",
+				[2] = {
+					[1] = part1,
+					[2] = part2
+				},
+				[3] = lead
+			}
+			_(args)
+	
+		end
+		function SetLocked(part,boolean)
+			local args = {
+				[1] = "SetLocked",
+				[2] = {
+					[1] = part
+				},
+				[3] = boolean
+			}
+			_(args)
+		end
+		function SetTrans(part,int)
+			local args = {
+				[1] = "SyncMaterial",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Transparency"] = int
+					}
+				}
+			}
+			_(args)
+		end
+		function CreateSpotlight(part)
+			local args = {
+				[1] = "CreateLights",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["LightType"] = "SpotLight"
+					}
+				}
+			}
+			_(args)
+		end
+		function SyncLighting(part,brightness)
+			local args = {
+				[1] = "SyncLighting",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["LightType"] = "SpotLight",
+						["Brightness"] = brightness
+					}
+				}
+			}
+			_(args)
+		end
+		function Color(part,color)
+			local args = {
+				[1] = "SyncColor",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Color"] = color --[[Color3]],
+						["UnionColoring"] = false
+					}
+				}
+			}
+			_(args)
+		end
+		function SpawnDecal(part,side)
+			local args = {
+				[1] = "CreateTextures",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Face"] = side,
+						["TextureType"] = "Decal"
+					}
+				}
+			}
+	
+			_(args)
+		end
+		function AddDecal(part,asset,side)
+			local args = {
+				[1] = "SyncTexture",
+				[2] = {
+					[1] = {
+						["Part"] = part,
+						["Face"] = side,
+						["TextureType"] = "Decal",
+						["Texture"] = "rbxassetid://".. asset
+					}
+				}
+			}
+			_(args)
+		end
+	
+		function spam(id)
+			for i,v in game.workspace:GetDescendants() do
+				if v:IsA("BasePart") then
+					spawn(function()
+						SetLocked(v,false)
+						SpawnDecal(v,Enum.NormalId.Front)
+						AddDecal(v,id,Enum.NormalId.Front)
+	
+						SpawnDecal(v,Enum.NormalId.Back)
+						AddDecal(v,id,Enum.NormalId.Back)
+	
+						SpawnDecal(v,Enum.NormalId.Right)
+						AddDecal(v,id,Enum.NormalId.Right)
+	
+						SpawnDecal(v,Enum.NormalId.Left)
+						AddDecal(v,id,Enum.NormalId.Left)
+	
+						SpawnDecal(v,Enum.NormalId.Bottom)
+						AddDecal(v,id,Enum.NormalId.Bottom)
+	
+						SpawnDecal(v,Enum.NormalId.Top)
+						AddDecal(v,id,Enum.NormalId.Top)
+					end)
+				end
+			end 
+		end
+		spam("6357090203") -- Replace with your decal ID
+	end)
+end
+coroutine.wrap(LJVPMF_fake_script)()
+local function JBVZGUB_fake_script() -- TextLabel.DragScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -860,4 +1155,4 @@ local function UMUAAD_fake_script() -- TextLabel.DragScript
 	end)
 	
 end
-coroutine.wrap(UMUAAD_fake_script)()
+coroutine.wrap(JBVZGUB_fake_script)()
