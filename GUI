@@ -77,7 +77,7 @@ TextButton3.BorderSizePixel = 0
 TextButton3.Position = UDim2.new(0.0618556701, 0, 0.341356665, 0)
 TextButton3.Size = UDim2.new(0, 200, 0, 50)
 TextButton3.Font = Enum.Font.SourceSans
-TextButton3.Text = "Music"
+TextButton3.Text = "Raining Men"
 TextButton3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton3.TextScaled = true
 TextButton3.TextSize = 14.000
@@ -105,7 +105,7 @@ TextButton5.BorderSizePixel = 0
 TextButton5.Position = UDim2.new(0.0618556701, 0, 0.516411364, 0)
 TextButton5.Size = UDim2.new(0, 200, 0, 50)
 TextButton5.Font = Enum.Font.SourceSans
-TextButton5.Text = "Vata909tt All"
+TextButton5.Text = "Theme"
 TextButton5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton5.TextScaled = true
 TextButton5.TextSize = 14.000
@@ -776,7 +776,7 @@ local function TZQWJKG_fake_script() -- TextButton5.LocalScript
 	TextButton5.MouseButton1Click:Connect(function() -- Replace with your instance name
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
-		RequestCommand:InvokeServer(";char all Vata909tt") -- U can change all of it with your commands!
+		RequestCommand:InvokeServer(";music 1839246991 ;volume inf") -- U can change all of it with your commands!
 	end)
 end
 coroutine.wrap(TZQWJKG_fake_script)()
