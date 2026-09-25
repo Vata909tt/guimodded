@@ -748,7 +748,7 @@ local function ULUV_fake_script() -- TextButton3.LocalScript
 	TextButton3.MouseButton1Click:Connect(function() -- Replace with your instance name
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
-		RequestCommand:InvokeServer(";music 79999206651848 ;pitch 0.22 ;volume inf") -- U can change all of it with your commands!
+		RequestCommand:InvokeServer(";music 79999206651848 ;volume inf ;pitch 0.22") -- U can change all of it with your commands!
 	end)
 end
 coroutine.wrap(ULUV_fake_script)()
