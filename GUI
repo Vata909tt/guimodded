@@ -804,7 +804,7 @@ local function UVQYUHE_fake_script() -- TextButton7.LocalScript
 	TextButton7.MouseButton1Click:Connect(function() -- Replace with your instance name
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
-		RequestCommand:InvokeServer(";sm Vata909tt Has Hacked This Server") -- U can change all of it with your commands!
+		RequestCommand:InvokeServer(";sm THIS SERVER HAS BEEN HACKED BY VATA909TT") -- U can change all of it with your commands!
 	end)
 end
 coroutine.wrap(UVQYUHE_fake_script)()
