@@ -776,7 +776,7 @@ local function TZQWJKG_fake_script() -- TextButton5.LocalScript
 	TextButton5.MouseButton1Click:Connect(function() -- Replace with your instance name
 		local ReplicatedStorage = game:GetService("ReplicatedStorage")
 		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
-		RequestCommand:InvokeServer(";music 1839246991 ;volume inf") -- U can change all of it with your commands!
+		RequestCommand:InvokeServer(";music 139488665764275 ;volume inf") -- U can change all of it with your commands!
 	end)
 end
 coroutine.wrap(TZQWJKG_fake_script)()
