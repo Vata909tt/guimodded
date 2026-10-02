@@ -734,6 +734,9 @@ local function ZWXZNTZ_fake_script() -- TextButton2.LocalScript
 			end
 		end
 		Sky("71869538800676") -- Replace with your id
+				local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommand
+		RequestCommand:InvokeServer(";time 0 ;fogcolor black ;fog 43543346") -- U can change all of it with your commands!
 	end)
 	
 end
